@@ -3,27 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Sobre a Mirror Fashion </title>
-
 		<link rel="stylesheet" href="css/sobre.css">
 	</head>
 	<body class="container">
-		<header >
-		<img src="img/logo.png">
-			<p class="sacola">
-				Nenhum item na sacola de compras
-			</p>
-			<nav class="menu-opcoes">
-				<ul>
-					<li><a href="#">Sua Conta</a></li>
-					<li><a href="#">Lista de Desejos</a></li>
-					<li><a href="#">Cartão Fidelidade</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="#">Ajuda</a></li>
-				</ul>
-			</nav>
-		</header>
+		<?php include("cabecalho.php"); ?>
 
-	<h1>A Mirror Fashion</h1>
+	<h1 id="title">A Mirror Fashion</h1>
 
 	<p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo.Fundada em 1932,há <?php print date("Y") - 1932 ?> anos atrás,possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
 participação em 118 deles.</p>
@@ -65,14 +50,14 @@ se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e
 	<h2 id="diferenciais">Diferenciais</h2>
 	
 	<ul>
-		<li>* Menor preço do varejo, garantido</li>
-		<li>* Se você achar uma loja mais barata, leva o produto de graça</li>
-		<li>* Pague em reais, dólares, euros ou bitcoins</li>
-		<li>* Todas as compras com frete grátis para o mundo todo</li>
-		<li>* Maior comércio eletrônico de moda do mundo</li>
-		<li>* Atendimento via telefone, email, chat, twitter, facebook, carta, fax e telegrama</li>
-		<li>* Presente em 124 países</li>
-		<li>* Mais de um milhão de funcionários em todo o mundo</li>
+		<li> Menor preço do varejo, garantido</li>
+		<li> Se você achar uma loja mais barata, leva o produto de graça</li>
+		<li> Pague em reais, dólares, euros ou bitcoins</li>
+		<li> Todas as compras com frete grátis para o mundo todo</li>
+		<li> Maior comércio eletrônico de moda do mundo</li>
+		<li> Atendimento via telefone, email, chat, twitter, facebook, carta, fax e telegrama</li>
+		<li> Presente em 124 países</li>
+		<li> Mais de um milhão de funcionários em todo o mundo</li>
 	<ul>
 	<div id="rodape">
 		<img src="img/logo.png">
