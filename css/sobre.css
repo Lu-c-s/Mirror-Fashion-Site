@@ -1,5 +1,4 @@
 body{
-	color:#334213;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 header{
@@ -8,9 +7,12 @@ header{
 .container{
 	margin: 0 auto;
 	width: 940px;
+	background-color: white;
+}
+.title{
+	background-image: url(../img/sobre-background.jpg);
 }
 h1{
-	background-image: url(../img/sobre-background.jpg);
 	padding: 10px;
 }
 
