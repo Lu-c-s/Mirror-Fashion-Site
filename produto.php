@@ -40,7 +40,8 @@
 						</fieldset>
 						<fieldset class="tamanhos">
 							<legend>Escolha o tamanho:</legend>
-							<input type="range" min="36" max="46" value="42" step="2" name="tamanhos">
+							<input type="range" min="36" max="46" value="42" step="2" id="myRange">
+							<output id="tamanho" for="myRange"> </output>
 						</fieldset>
 						<input type="submit" class="comprar" value="Comprar" >
 					</form>
@@ -79,5 +80,7 @@
 			</div>
 		</div>	
 		<?php include("rodape.php"); ?>
+		 <script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/produto.js"></script>
 	</body>
 </html>

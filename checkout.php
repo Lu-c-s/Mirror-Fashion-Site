@@ -58,7 +58,7 @@
 							<dd><?= $_POST['nome'] ?></dd>
 
 							<dt>Valor</dt>
-							<dd><?= $_POST['valor'] ?></dd>
+							<dd id="valor"><?= $_POST['valor'] ?></dd>
 
 							<dt>Cor</dt>
 							<dd><?= $_POST['cor'] ?></dd>
@@ -66,6 +66,17 @@
 							<dt> Tamanho </dt>
 							<dd><?= $_POST['tamanhos'] ?></dd>
 						</dl>
+
+						<div class="form-group">
+							<label for="qt"> Quantidade </label>
+							<input id="qt" class="form-control" type="number" min="0" max="99" value="1">
+						</div>
+						<div class="form-group">
+							<label for="total">Total </label>
+							<output for="qt valor" id="total" class="form-control">
+								<?= $_POST["valor"] ?>
+							</output>
+						</div>
 					</div>
 				</div>	
 			</div>	
@@ -125,6 +136,7 @@
 		</div>	
 	</div>	
  <script src="js/jquery-3.3.1.min.js"></script>
- <script src="js/bootstrap.js"></script>	
+ <script src="js/bootstrap.js"></script>
+ <script src="js/total.js"></script>	
 </body>
 </html>

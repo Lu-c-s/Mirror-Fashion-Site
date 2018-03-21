@@ -8,6 +8,9 @@
 		<link rel="stylesheet" href="css/estilos.css">
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)" >
+   		<link href='http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script' 
+     	rel='stylesheet'>
+
 
 	</head>
 	<body>
@@ -105,6 +108,7 @@
 					</a>
 				</li>
 			</ol>
+			<button type="button"> Mostra mais</button>
 		</section> <!-- fim painel novidades -->
 		<section class="painel mais-vendidos">
 			<h2>Mais Vendidos </h2>
@@ -163,8 +167,12 @@
 					</a>
 				</li>
 			</ol>
+			<button type="button"> Mostra mais </button>
 		</section><!-- fim painel mais-vendidos -->
 	</div><!-- fim .paineis -->
 	<?php include("rodape.php"); ?>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/home.js"></script>
+	<script src="js/index.js"></script>
 	</body>
 </html>
