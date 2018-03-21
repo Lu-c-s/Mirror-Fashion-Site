@@ -1,6 +1,6 @@
 body{
 	color:#333;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:"PT Sans", sans-serif;
 }
 header{
 	position: relative;
@@ -128,6 +128,7 @@ header{
 	transform: scale(1.2) rotate(-5deg);	
 }
 .painel h2 {
+	font-family: 'Bad Script', sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -180,4 +181,13 @@ footer .container{
 }
 .social a[href*="plus.google.com"]{
 	background-image: url(../img/googleplus.png);
+}
+.painel button{
+	display:none;
+}
+.painel-compacto li:nth-child(n+7){
+	display:none;
+}
+.painel-compacto button{
+	display:block;
 }
